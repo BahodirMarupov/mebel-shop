@@ -1,6 +1,6 @@
 # mebel-shop
 
-**It is a desktop app designed to order and deliver home furnitures.**
+**It is a desktop app designed to order and deliver home furniture.**
 
 >Used technologies
 - JavaFX
