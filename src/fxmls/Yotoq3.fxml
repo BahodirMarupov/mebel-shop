@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #a77846;" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.Yotoq3">
+   <children>
+      <ImageView fitHeight="285.0" fitWidth="384.0">
+         <image>
+            <Image url="@../images/catalog_origin_46.jpg" />
+         </image>
+      </ImageView>
+      <TextArea editable="false" layoutX="383.0" prefHeight="285.0" prefWidth="217.0" text="Maxsulot nomi&#9;:   Rio&#10;Brend:  &#9;Zim &amp; Elegant Meb&#10;Turi:  &#9;Yotoqxona mebeli&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;NARXI&#10;13 600 000 UZS&#10;&#10;" />
+      <Button layoutX="442.0" layoutY="345.0" mnemonicParsing="false" onAction="#buyurtma" prefHeight="25.0" prefWidth="107.0" style="-fx-background-radius: 60;" text="Buyurtma berish" />
+      <Label layoutX="24.0" layoutY="305.0" prefHeight="105.0" prefWidth="378.0" text="Buyurtma berganingizdan so'ng operatorlarimiz siz bilan&#10;bog'lanishadi. To'lovni qilganingizdan so'ng buyurtmangiz&#10;1 hafta ichida yetkazilib beriladi." textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

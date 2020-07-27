@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #7c400c;" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.RoyxatController">
+   <children>
+      <TableView fx:id="table" prefHeight="350.0" prefWidth="600.0" style="-fx-background-color: #a58734;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <columns>
+            <TableColumn fx:id="id" prefWidth="75.0" text="id" />
+            <TableColumn fx:id="ism" prefWidth="157.0" text="Ism" />
+            <TableColumn fx:id="familiya" prefWidth="186.0" text="Familiya" />
+            <TableColumn fx:id="tell" prefWidth="181.0" text="Tell" />
+         </columns></TableView>
+      <Button layoutX="175.0" layoutY="361.0" mnemonicParsing="false" onAction="#delete" style="-fx-background-color: #aaaaaa;" text="Delete" />
+      <TextField fx:id="number" layoutX="83.0" layoutY="361.0" prefHeight="25.0" prefWidth="77.0" promptText="Client's id" style="-fx-background-color: #a58734;">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font></TextField>
+
+   </children>
+</AnchorPane>
